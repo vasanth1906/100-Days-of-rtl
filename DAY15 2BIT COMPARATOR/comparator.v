@@ -11,4 +11,4 @@ module 2bit-comparator(input [1:0] A,B, output A-equal-B, A-less-B, A-greater-B)
  assign w6 = (~B[1])& A[1];  
  assign w7 = (~B[0])& A[1]& A[0];  
  assign A-greater-B = w5 | w6 | w7;  
- endmodule   
+ endmodule  
