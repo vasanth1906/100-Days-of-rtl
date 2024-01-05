@@ -1,4 +1,4 @@
-odule edge_detector(
+module edge_detector(
     input  data,    
 	 input clock,    
     output edge_detect  
